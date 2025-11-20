@@ -1,0 +1,26 @@
+.box{
+    margin: 100px auto;
+    padding:100px ;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color:aqua ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: scale(3);   multiplty the size of the box */ 
+   /* transform: skew(20deg, 40deg); rotate wrt to x axis*/
+   /* transform: translate(100px, 100px);  */
+   /* transform: rotate(20deg); */
+   /* transition: 2s ease; */
+   transition-duration: 2s;
+   transition-property: all; /*how many properties you want to apply frtom .hover*/
+   transition-delay: 1s;
+   transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.box:hover{
+    transform: rotate(720deg);
+    border-radius: 50%;
+    background-color: brown;
+}

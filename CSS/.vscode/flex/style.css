@@ -1,0 +1,30 @@
+.container{
+    height: 800px;
+    width: 800px; 
+    border: 2px solid red;
+    display:flex;
+    flex-direction: row; /* by default,its row*/
+    flex-wrap: wrap;
+    gap:100px;
+    flex-flow: row wrap-reverse;
+    justify-content:center ;
+    align-items: center;
+}
+#box-1{
+   /* order: 1;*/
+   flex-grow: 6;
+}
+#box-3{
+    flex-grow: 2;
+}
+#box--8{
+    flex-grow: 8;
+}
+#box-5{
+    order:2;
+}
+
+.box{
+    border: 2px solid black;
+    
+}
